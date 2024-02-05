@@ -1,0 +1,99 @@
+/* Container styles */
+#container{
+    width: 360px;
+    background-color: #f7f7f7;
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+/* Completed task styles */
+.completed{
+  color: gray;
+  text-decoration: line-through;  
+}
+/* Header styles */
+h1{
+    background: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+    
+}
+/* Unordered list styles */
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Body styles */
+body{
+    font-family: roboto;
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* List item styles */
+li{
+    background: rgba(255, 255, 255, 255);
+    height: 48px;
+    line-height: 40px;
+    color: #666;
+    
+
+
+}
+/* Alternating list item styles */
+li:nth-child(2n){
+    background: #f7f7f7;
+   
+
+}
+/* Input field styles */
+input{
+    padding: 13px 13px 13px 20px;
+    width: 100%;
+    font-size: 18px;
+    background: #f7f7f7;
+    box-sizing: border-box;
+    color: #2980b9;
+    border: 3px solid rgba(0, 0, 0, 0);
+    
+}
+/* Input field focus styles */
+input:focus{
+    background: white ;
+    border: 3px solid #2980b9;
+    outline: none;
+} 
+/* Trash icon styles */
+.fa-regular{
+    background-color: red;
+    color: #f7f7f7;
+    text-align: center;
+    width: 0px;
+    height: 40px;
+    margin-right: 20px;
+    display: inline-block;
+    opacity: 0;
+    transition: 0.2s linear;
+}
+/* Trash icon hover styles */
+.span{
+    color: #f7f7f7;
+}
+li:hover .fa-regular{
+    width: 40px;
+    opacity:1.0;
+}
+/* Icon styles */
+.fa{
+    float: right;
+}
+#pen{
+    color: white;
+}
+
+    
